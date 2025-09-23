@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Практика 4',
+      debugShowCheckedModeBanner: false, // убираем баннер debug
+      title: 'Практика 3',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
@@ -20,39 +20,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class PracticeScreen extends StatefulWidget {
+class PracticeScreen extends StatelessWidget {
   const PracticeScreen({super.key});
-
-  @override
-  State<PracticeScreen> createState() => _PracticeScreenState();
-}
-
-class _PracticeScreenState extends State<PracticeScreen> {
-  int counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      counter++;
-    });
-  }
-
-  void _incrementCounterLongPress() {
-    setState(() {
-      counter += 10;
-    });
-  }
-
-  void _resetCounter() {
-    setState(() {
-      counter = 0;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Практика №4"),
+        title: const Text("Практика 3"),
         backgroundColor: Colors.green,
       ),
       body: Padding(
@@ -60,51 +35,58 @@ class _PracticeScreenState extends State<PracticeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              "Значение счётчика: $counter",
-              style: const TextStyle(
+            const Text(
+              "Добро пожаловать в Flutter!",
+              style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
               ),
             ),
+
             const SizedBox(height: 20),
 
+            ElevatedButton(
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text("Кнопка нажата!")),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF6200EE), // кастомный цвет
+              ),
+              child: const Text(
+                "Нажми меня",
+                style: TextStyle(fontSize: 18, color: Colors.white),
+              ),
+            ),
+
+            const SizedBox(height: 20),
 
             Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(8),
-              color: Colors.lightBlue,
-              child: ElevatedButton(
-                onPressed: _incrementCounter,
-                onLongPress: _incrementCounterLongPress,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue,
-                ),
-                child: const Text(
-                  "Увеличить",
-                  style: TextStyle(fontSize: 18, color: Colors.white),
+              width: 150,
+              height: 100,
+              color: Colors.green,
+              alignment: Alignment.center,
+              child: const Text(
+                "Контейнер",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white,
                 ),
               ),
             ),
 
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
 
-
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(8),
-              color: Colors.redAccent,
-              child: ElevatedButton(
-                onPressed: _resetCounter,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
-                ),
-                child: const Text(
-                  "Сбросить",
-                  style: TextStyle(fontSize: 18, color: Colors.white),
-                ),
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                Icon(Icons.star, color: Colors.orange, size: 40),
+                SizedBox(width: 20),
+                Icon(Icons.favorite, color: Colors.red, size: 40),
+              ],
             ),
           ],
         ),
@@ -112,3 +94,4 @@ class _PracticeScreenState extends State<PracticeScreen> {
     );
   }
 }
+
