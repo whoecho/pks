@@ -1,16 +1,35 @@
-# untitled2
+**Практическая работа N3**
 
-A new Flutter project.
+Хромых.В.А ЭФБО-06-23
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<img width="291" height="632" alt="image" src="https://github.com/user-attachments/assets/576b9ec7-26de-453e-9016-377722127b53" />
 
-A few resources to get you started if this is your first Flutter project:
+</br>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="291" height="632" alt="image" src="https://github.com/user-attachments/assets/7a8ae42a-3777-459a-8cac-8660fdda1801" />
+</br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="291" height="632" alt="image" src="https://github.com/user-attachments/assets/71301098-b1bb-47a7-a4a3-d5e2e5cab3fc" />
+</br>
+
+
+
+
+
+
+
+Использованные виджеты:
+Я использовал MaterialApp – главный виджет приложения, через который настраивается тема и загружается главный экран. 
+Scaffold – базовый каркас страницы, включающий в себя AppBar, body и другие элементы интерфейса. 
+AppBar – верхняя панель приложения, где я указал заголовок. Text – для вывода текста на экране (“Добро пожаловать в Flutter!”, “Контейнер”). 
+ElevatedButton – кнопка с обработчиком события нажатия. 
+SnackBar – всплывающее уведомление, которое появляется при нажатии кнопки. 
+Container – прямоугольная область с цветом фона, фиксированными размерами и выравниванием текста. Row – строка для размещения элементов по горизонтали (иконки). 
+Icon – иконки (звезда и сердце). SizedBox – использовался для создания отступов между элементами.
+
+Изменение стилей и цветов:
+Для текста применял TextStyle, где менял размер шрифта (fontSize), толщину (fontWeight) и цвет (color). Для кнопки задал собственный цвет с помощью ElevatedButton.styleFrom(backgroundColor: …). У AppBar изменил фоновый цвет (backgroundColor: Colors.green). Для Container задал фиксированные размеры (width, height) и фоновый цвет (color: Colors.green). Для иконок менял их цвет (Colors.orange, Colors.red) и размер (size: 40). Таким образом, я попробовал разные варианты стилизации, чтобы экран выглядел более разнообразным.
+
+Трудности:
+Сначала было непонятно, как правильно задать отступы между элементами. Решением стало использование виджета SizedBox. Возникли сложности с изменением цвета кнопки, так как в последних версиях Flutter для этого нужно использовать метод styleFrom. При работе с SnackBar сначала забыл, что его нужно вызывать через ScaffoldMessenger.of(context), а не напрямую, из-за чего появлялась ошибка.
