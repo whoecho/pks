@@ -3,10 +3,14 @@
 Хромых.В.А ЭФБО-06-23
 
 
+
+
+Кастомные цвета
 <img width="1068" height="640" alt="image" src="https://github.com/user-attachments/assets/a70f9e4f-c187-4c4b-a07f-82fefc2cf2be" />
 
 
 </br>
+Использованные виджеты:
 
 <img width="786" height="720" alt="image" src="https://github.com/user-attachments/assets/7f6cb43b-3f3a-4f19-8229-29cd96f7cb51" />
 
