@@ -1,13 +1,8 @@
-Практическое занятие №1
+**Практическое занятие №1**
 
 Контрольная точка 1:
 
 <img width="1754" height="1462" alt="image" src="https://github.com/user-attachments/assets/8dff1dea-21c6-48e7-a50f-9f6eaf95252f" />
-
-
-
-
-
 
 
 
