@@ -2,16 +2,16 @@
 Хромых В.А ЭФБО-06-23
 </br>
 Контрольные задания
-Скриншот работающего приложения с кнопками и счётчиком.
+Скриншот работающего приложения с кнопками и счётчиком.</br>
 <img width="394" height="675" alt="image" src="https://github.com/user-attachments/assets/6183a05f-e112-4c77-a930-e453334a7047" />
 </br>
 
-Скриншот при значении счётчика > 10.
+Скриншот при значении счётчика > 10.</br>
 <img width="374" height="662" alt="image" src="https://github.com/user-attachments/assets/2141eba3-da02-4ff0-9e58-bc556ba7cd28" />
 </br>
 
 
-Скриншот после сброса.
+Скриншот после сброса.</br>
 <img width="389" height="655" alt="image" src="https://github.com/user-attachments/assets/87172062-ef31-422c-bf18-371250862acd" />
 </br>
 ОТЧЕТ
