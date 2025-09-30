@@ -1,16 +1,42 @@
-# untitled2
+# Практическая работа номер 4 
+Хромых В.А ЭФБО-06-23
+</br>
+Контрольные задания
+Скриншот работающего приложения с кнопками и счётчиком.
+<img width="394" height="675" alt="image" src="https://github.com/user-attachments/assets/6183a05f-e112-4c77-a930-e453334a7047" />
+</br>
 
-A new Flutter project.
+Скриншот при значении счётчика > 10.
+<img width="374" height="662" alt="image" src="https://github.com/user-attachments/assets/2141eba3-da02-4ff0-9e58-bc556ba7cd28" />
+</br>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Скриншот после сброса.
+<img width="389" height="655" alt="image" src="https://github.com/user-attachments/assets/87172062-ef31-422c-bf18-371250862acd" />
+</br>
+ОТЧЕТ
 
-A few resources to get you started if this is your first Flutter project:
+1.	Какие виджеты использовались:
+MaterialApp — для основного оформления приложения.
+	Scaffold — как основной каркас экрана (с AppBar и body).
+	AppBar — верхняя панель с заголовком.
+	Column — чтобы расположить элементы вертикально.
+	Text — для отображения значения счётчика.
+	Container — для обертки кнопок с цветным фоном и отступами.
+	ElevatedButton — для кнопок (увеличение и сброс).
+	SizedBox — для создания отступов между элементами.
+	Также использовались Padding и стилизация (TextStyle, Colors и т.д.).
+</br>
+	2.	Как реализовано обновление состояния:
+Я сделал экран как StatefulWidget, чтобы можно было изменять состояние.
+Счётчик хранится в переменной int counter внутри класса _PracticeScreenState.
+При изменении счётчика вызывается метод setState(), и Flutter перерисовывает экран с новым значением.
+</br>
+	3.	Какие события обрабатывались:
+	•	onPressed у кнопки “Увеличить” — добавляет 1 к счётчику.
+	•	onLongPress у той же кнопки — добавляет сразу 10.
+	•	onPressed у кнопки “Сбросить” — сбрасывает счётчик в 0.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
