@@ -1,0 +1,27 @@
+name: madcoffee_khromykh
+description: A simple demo shop
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
+    - lib/assets/1.jpg
+    - lib/assets/2.jpeg
+    - lib/assets/3.jpeg
+    - lib/assets/4.jpeg
