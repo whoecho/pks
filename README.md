@@ -2,7 +2,7 @@
 
 Скриншоты экранов:
 создание аккаунта
-<img width="301" height="621" alt="Screenshot 2025-11-27 at 12 15 44" src="https://github.com/user-attachments/assets/8438eeb8-0ac0-499c-8484-97b1af452b05" /></br>
+<img width="301" height="621" alt="Screenshot 2025-11-27 at 12 15 44" src="https://github.com/user-attachments/assets/8438eeb8-0ac0-499c-8484-97b1af452b05" /><br/>
 логин
 
 <img width="317" height="638" alt="Screenshot 2025-11-27 at 12 15 53" src="https://github.com/user-attachments/assets/9a7693f7-43bb-469e-a078-2776084c6e9a" /></br>
