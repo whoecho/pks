@@ -1,7 +1,7 @@
 Практическая Работа 6-8. Хромых.В.А ЭФБО-06-23
 
 Скриншоты экранов:<br><br>
-создание аккаунта
+создание аккаунта<br>
 <img width="301" height="621" alt="Screenshot 2025-11-27 at 12 15 44" src="https://github.com/user-attachments/assets/8438eeb8-0ac0-499c-8484-97b1af452b05" /><br/>
 логин
 <br>
