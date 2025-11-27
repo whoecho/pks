@@ -39,4 +39,6 @@ path_provider - для работы с файловой системой
 
 <br>
 Основной фрагмент кода:
+<br>
 <img width="641" height="613" alt="Screenshot 2025-11-27 at 17 23 43" src="https://github.com/user-attachments/assets/4534f30e-024e-4409-b469-35486a6d513c" />
+
